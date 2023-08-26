@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+footer {
+  color: #fff;;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  margin: 2% 5% 5%;
+  word-spacing: 0.5rem;
+}
+
+.linktree {
+  color: #FEF2BF;
+  display: inline-block;
+  text-decoration: none;
+}
+.linktree:hover {
+  transform: scale(1.1);
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 7rem;
+}
+
+         
+.start-button {
+  background-color: #FF512F;
+  padding: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;            
+  box-shadow: 5px 5px 10px #FF512F;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.start-button:hover {
+  background-color: #bf2000;
+  text-decoration: none;
+}
+
+
+.container {
+  display: block;
+  width: 70%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 220px;
+  width: 220px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(255, 78, 78);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
